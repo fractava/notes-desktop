@@ -1,4 +1,5 @@
 # FRACTAVA Notes Desktop
+![Notes Logo](https://github.com/fractava/notes-resources/blob/master/Notes.png)
 
 ## Project setup
 ```
