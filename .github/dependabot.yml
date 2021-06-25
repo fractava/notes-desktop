@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/fractava-notes-desktop"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  assignees:
+  - JonathanTreffler
+  ignore:
+  - dependency-name: core-js
+    versions:
+    - 3.10.2
+    - 3.9.0
+  - dependency-name: electron
+    versions:
+    - 12.0.4
